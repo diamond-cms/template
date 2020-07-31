@@ -1,13 +1,8 @@
 {
   "dependencies": {
-    "@diam/cli": "^1.0.3",
-    "next": "^9.5.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "@diam/cli": "^1.0.3"
   },
   "scripts": {
-    "dev": "next",
-    "build": "diamond setup && next build",
-    "start": "next start"
+    "build": "diamond setup && yarn build"
   }
 }
