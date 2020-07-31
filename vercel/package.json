@@ -4,6 +4,8 @@
     "next": "^9.5.0"
   },
   "scripts": {
-    "build": "diamond setup && yarn build && next build"
+    "dev": "next",
+    "build": "diamond setup && yarn build && next build",
+    "start": "next start"
   }
 }
