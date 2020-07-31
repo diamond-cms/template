@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "@diam/cli": "latest",
-    "next": "^9.5.0"
+    "@diam/cli": "latest"
   },
   "scripts": {
     "build": "diamond setup && yarn build && next build",
