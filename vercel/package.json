@@ -3,6 +3,7 @@
     "@diam/cli": "latest"
   },
   "scripts": {
-    "build": "diamond setup && yarn build && next build"
+    "build": "diamond setup && yarn build && next build",
+    "start": "next start"
   }
 }
